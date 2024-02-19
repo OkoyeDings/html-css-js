@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-center{
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gift-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.gift-info h3{
+    color: rgb(0, 57, 131);
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.gift-info h4{
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gift-info p{
+    color: rgb(205, 230, 250);
+}
+
+article{
+    width: 50%;
+    margin: 10px;
+}
+
+.giveaway{
+    margin: 10px 0;
+}
+
+.gift-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.deadline-format{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.deadline-format div{
+    padding: 4%;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.done{
+    color: darkgray;
+}
+
+
+@media (max-width:1000px) {
+
+    .section-center{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 10px;
+        justify-content: center;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    .deadline-format{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

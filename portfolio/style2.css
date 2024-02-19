@@ -1,0 +1,336 @@
+body{
+    background-image: url(image/92b42841-14cf-4499-a835-521a6eee3c69.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+nav{
+    background-color: rgba(11, 11, 11, 0.479);
+}
+
+label.logo{
+    color: orange;
+}
+
+a.active,nav ul li a:hover{
+    background-color: rgb(255, 145, 0);
+    transition: .5s;
+    color: black;
+}
+
+
+/* ...........MAIN......... */
+
+.main{
+    color: aliceblue;
+    padding: 268px 100px;
+    width: 100%;
+   
+   
+}
+
+.main ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* ...........WEB.......... */
+
+#web{
+    width: 50%;
+    float: right;
+    display: block;
+    animation: fade 2s ease 1;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+#a{
+    color: aliceblue;
+    font-size: 70px;
+    width: 60%;
+}
+span{
+    opacity: 1;
+    color: orange;
+}
+
+#b{
+    padding-top: 10px;
+    font-size: 20px;
+    width: 70%;
+    line-height: 30px;
+}
+
+button{
+    background-color: rgb(255, 136, 0);
+    border-radius: 5px;
+    border: solid rgb(255, 123, 0) 5px;
+    padding: 5px 30px;
+    margin: 10px;
+    text-decoration: solid;
+}
+
+button a{
+    color: black;
+}
+
+
+
+/* ..........LOGIN........... */
+
+#log{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    animation: flow 2s ease 1;
+    justify-content: center;
+}
+
+.user{
+    display:flex;
+    align-content: center;
+}
+
+@keyframes flow{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+#c{
+    padding: 7px;
+    margin-top: 0;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(255, 145, 0);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.user{
+    background-color: transparent;
+    color: aliceblue;
+    padding: 10px;
+    border:solid white 2px;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+
+input{
+    outline: none;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    background: transparent;
+    width: 100%;
+    color: white;
+}
+
+.invalid{
+    animation: invalid .2s ease 4;
+}
+
+@keyframes invalid{
+    0%{
+        transform: translateX(0rem);
+    }
+
+    50%{
+        transform: translateX(.2rem);
+    }
+
+
+    100%{
+        transform: translateX(-.2rem);
+    }
+}
+
+#log input::placeholder{
+   color: aliceblue;
+}
+
+#btn{
+    background-color: rgb(255, 145, 0);
+    border: solid rgb(255, 115, 0) 2px;
+    color: black;
+    font-size: 15pxpx;
+    text-decoration: solid;
+    border-radius: 20px;
+}
+
+#btn:hover{
+   transform: scale(1.2,1.2);
+   transition: all .3s;
+   cursor: pointer;
+}
+
+a{
+    color:rgb(255, 102, 0) ;
+}
+
+.sign-up a{
+    color: aliceblue;
+    padding: 10px;
+}
+
+.sign-up a:hover{
+    transition: .8s;
+    color:rgb(255, 102, 0) ;
+}
+
+#message{
+    padding: 10px;
+}
+
+
+/* ...............STARS............... */
+
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+}
+
+.stars img{
+    width: 20px;
+    opacity: 0;
+    animation: star 7s linear infinite;
+}
+
+@keyframes star{
+    0%{
+        transform: translateY(0);
+    }
+
+    75%{
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-90vh);
+        opacity: 0;
+    }
+}
+
+.stars img:nth-child(1){
+    animation-delay: 1s;
+}
+.stars img:nth-child(2){
+    width: 10px;
+    animation-delay: 5s;
+}
+.stars img:nth-child(3){
+    width: 25px;
+    animation-delay: 9s;
+}
+.stars img:nth-child(4){
+    width: 15px;
+    animation-delay: 5s;
+}
+.stars img:nth-child(5){
+    animation-delay: 3s;
+}
+.stars img:nth-child(6){
+    width: 12px;
+    animation-delay: 7s;
+}
+.stars img:nth-child(7){
+    width:8px;
+    animation-delay: 4s;
+}
+.stars img:nth-child(8){
+    width: 5.5px;
+    animation-delay: 3s;
+}
+.stars img:nth-child(9){
+    width: 10px;
+    animation-delay: 1s;
+}
+
+
+
+
+/* ...........MOBILE DESIGN............. */
+
+@media (max-width:1100px) {
+
+    body{
+        background-attachment: fixed;
+    }
+
+    nav{
+        background-color: black;
+    }
+
+    .main{
+        color: aliceblue;
+        padding: 50px;
+        width: 100%;
+        padding: 90px 40px;
+    }
+
+    .main ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    #web{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #a{
+        color: aliceblue;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #b{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    #log{
+        max-width: 400px;
+        width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+   
+}

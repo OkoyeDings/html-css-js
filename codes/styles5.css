@@ -1,0 +1,86 @@
+/*  */
+.messages{
+    display:block;
+    text-align: center;
+    width: 99%;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: rgba(61, 61, 61, 0.463);
+}
+.fa-facebook-messenger{
+    color: rgb(34, 245, 34);
+    border-bottom: solid 2px rgb(34, 245, 34);
+    padding-bottom: 3px;
+}
+
+.messages1{
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    color: black ;
+    border-radius: 20px;
+    background-color: rgba(61, 61, 61, 0.47);
+    width: 93%;
+    padding: 7px;
+}
+.messages2{
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    color: black ;
+    border-radius: 20px;
+    background-color: rgba(61, 61, 61, 0.47);
+    width: 93%;
+    padding: 7px;
+}
+.messages1:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.messages2:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.messages1 b{
+    margin-left: 10px;
+    font-size: 10px;
+    margin: 5px auto;
+    width: 100%;
+    padding: 22px 0;
+}
+.messages2 b{
+    margin-left: 10px;
+    font-size: 10px;
+    margin: 5px auto;
+    width: 100%;
+    padding: 22px 0;
+}
+.fa-face-angry{
+    color: red;
+    margin-left: 5px;
+}
+.fa-face-flushed{
+    color: red;
+    margin-left: 5px;
+}
+.fa-face-smile{
+    color: red;
+    margin-left: 5px;
+}
+.fa-face-grimace{
+    color: red;
+    margin-left: 5px;
+}
+.hide{
+    color: antiquewhite;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    margin: 4rem auto;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    color: blue;
+    margin: 1rem;
+}
+
+.container .menu{
+    margin-bottom: 20px;
+}
+
+.container .menu a{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container .menu a:hover{
+    background-color: rgb(164, 87, 236);
+    transition: all .5s;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+img:hover{
+    box-shadow: 0px 10px 7px rgb(226, 104, 104);
+    transition: all 0.5s;
+    transform: scale(1.09,1.09);
+}

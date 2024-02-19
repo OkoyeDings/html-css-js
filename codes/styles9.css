@@ -1,0 +1,76 @@
+.flex .fa-node-js {
+  color: rgb(34, 245, 34);
+  border-bottom: solid 2px rgb(34, 245, 34);
+  padding-bottom: 3px;
+}
+.offer{
+  color: aliceblue;
+  text-align: center;
+  font-family:cursive;
+}
+.acc-log{
+  display:inline-flex;
+  padding: 2px;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+.acc-log .acc-log-a, .acc-log-b, .acc-log-c{
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.acc-log .acc-log-ab{
+  border: solid white 1px;
+  border-radius: 10px;
+  background-image: url(image/7794856.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.acc-log .acc-log-bb{
+  border: solid white 1px;
+  border-radius: 10px;
+  background-image: url(image/7794856.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.acc-log .acc-log-cb{
+  border: solid white 1px;
+  background-image: url(image/7794856.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 80%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.acc-log-a h3, .acc-log-b h3, .acc-log-c h3{
+  color: white;
+  padding-left: 7px;
+  font-size: 15px;
+}
+.acc-log-a p, .acc-log-b p, .acc-log-c p{
+  display: none;
+}
+.acc-log-a, .acc-log-b, .acc-log-c {
+  color: rgb(238, 238, 247);
+}
+
+@media (max-width: 500px){
+  .acc-log-a, .acc-log-b, .acc-log-c{
+    position: relative;
+  }
+  
+  .acc-log-a p, .acc-log-b p, .acc-log-c p{
+   font-size: 10px;
+
+  }
+  
+}

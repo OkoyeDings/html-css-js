@@ -1,0 +1,94 @@
+html{
+    background-color: rgb(200, 199, 199);
+}
+.wellcome{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border: 3px solid rgb(163, 163, 163);
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+   
+    position: relative;
+}
+img.avatar {
+    width: 10em;
+    border-radius: 50%;
+}
+button{
+    background-color: rgb(33, 33, 201);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+     width: 10em; 
+}
+button a{
+    color: rgb(0, 0, 0);
+}
+.sign-up a:hover{
+  color: red;
+}
+button:hover{
+    background-color:rgb(42, 42, 252);
+    color: white;
+    transform:scale(1.08,1.05) ;
+}
+.about{
+    text-align: center;
+}
+.logfrom{
+    border-radius: 20px;
+    height: 1.7em;
+    text-align: center;
+}
+.logfrom:hover{
+    transform:scale(1.08,1.05) ;
+}
+.date{
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: rgb(4, 4, 90);
+    text-align: center;
+   width: 30%;
+   color: white;
+   font-size: 30%;
+   padding: 10px;
+}
+.sponsor{
+    display:flex;
+   margin: 1px auto;
+   color: rgb(15, 147, 140);
+   font-size: 15px;
+   justify-content: center;
+   width: 90%;
+   /* margin-left: 40px; */
+}
+.sponsor li{
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+@media (max-width: 500px){
+    .sponsor{
+    display:flex;
+   margin: 1px auto;
+   color: rgb(147, 15, 15);
+   font-size: 15px;
+   justify-content: center;
+   width: 50%;
+   margin-left: 40px;
+}
+.sponsor li{
+    width: 50%;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+}
