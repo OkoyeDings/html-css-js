@@ -1,4 +1,4 @@
-let count = 0
+ let count = 0
 
 const value = document.querySelector('#value')
 const btn = document.querySelectorAll('.btn')
